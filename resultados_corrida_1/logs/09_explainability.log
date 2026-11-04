@@ -1,0 +1,32 @@
+2026-11-02 06:12:51 | INFO | Python 3.10.11 | Windows-10-10.0.26200-SP0 | modo rápido=False
+2026-11-02 06:13:04 | INFO | SHAP por variable:
+    variable  shap_abs_medio
+   univ_prog          0.3738
+ universidad          0.3100
+        edad          0.2655
+        area          0.1418
+        anio          0.1315
+constitucion          0.1221
+        sexo          0.1111
+    creditos          0.0795
+departamento          0.0665
+    programa          0.0630
+     gestion          0.0085
+  licenciado          0.0069
+SHAP por bloque:
+       bloque  shap_abs_medio
+institucional          0.8284
+  demografico          0.2986
+     temporal          0.1315
+    academico          0.0795
+2026-11-02 06:13:16 | INFO | Permutación por bloques:
+  modelo        bloque   dMAE  dMAE_de
+CatBoost institucional 0.7642   0.0128
+CatBoost     academico 0.1618   0.0039
+CatBoost   demografico 0.1766   0.0033
+CatBoost      temporal 0.0458   0.0025
+ XGBoost institucional 0.7452   0.0127
+ XGBoost     academico 0.0677   0.0024
+ XGBoost   demografico 0.1750   0.0020
+ XGBoost      temporal 0.0359   0.0022
+2026-11-02 06:13:17 | INFO | Listo: Fig. 8

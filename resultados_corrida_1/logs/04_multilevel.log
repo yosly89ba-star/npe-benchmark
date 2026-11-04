@@ -1,0 +1,20 @@
+2026-11-01 20:26:32 | INFO | Python 3.10.11 | Windows-10-10.0.26200-SP0 | modo rápido=False
+2026-11-01 20:26:33 | INFO | Inicio: M0: año
+2026-11-01 20:27:25 | INFO | Mixto [C(anio)] método=lbfgs convergió=True llf=-671834.045
+2026-11-01 20:27:25 | INFO | Fin: M0: año (52.4 s)
+2026-11-01 20:27:25 | INFO | M0: año: {'var_universidad': 0.8633, 'var_programa': 0.707, 'var_residual': 1.2787, 'var_total': 2.8491, 'icc_universidad': 0.303, 'icc_univ_prog': 0.5512}
+2026-11-01 20:27:25 | INFO | Inicio: M1: + constitución, licenciamiento y área
+2026-11-01 20:28:46 | INFO | Mixto [C(anio) + C(constitucion) + C(licenciado) + C(area)] método=lbfgs convergió=True llf=-671303.880
+2026-11-01 20:28:46 | INFO | Fin: M1: + constitución, licenciamiento y área (80.3 s)
+2026-11-01 20:28:46 | INFO | M1: + constitución, licenciamiento y área: {'var_universidad': 0.5837, 'var_programa': 0.3637, 'var_residual': 1.2789, 'var_total': 2.2264, 'icc_universidad': 0.2622, 'icc_univ_prog': 0.4256}
+2026-11-01 20:28:46 | INFO | Inicio: M2: + edad, sexo, créditos y macrorregión
+2026-11-01 20:30:24 | INFO | Mixto [C(anio) + C(constitucion) + C(licenciado) + C(area) + edad + edad2 + C(sexo) + creditos + C(macroregion)] método=lbfgs convergió=True llf=-657426.903
+2026-11-01 20:30:24 | INFO | Fin: M2: + edad, sexo, créditos y macrorregión (98.1 s)
+2026-11-01 20:30:24 | INFO | M2: + edad, sexo, créditos y macrorregión: {'var_universidad': 0.5453, 'var_programa': 0.3387, 'var_residual': 1.1993, 'var_total': 2.0833, 'icc_universidad': 0.2618, 'icc_univ_prog': 0.4243}
+2026-11-01 20:30:24 | INFO | Inicio: Bootstrap ICC (30 réplicas)
+2026-11-01 20:39:42 | INFO | Bootstrap ICC: 10/30
+2026-11-01 20:50:17 | INFO | Bootstrap ICC: 20/30
+2026-11-01 21:01:35 | INFO | Bootstrap ICC: 30/30
+2026-11-01 21:01:35 | INFO | Fin: Bootstrap ICC (30 réplicas) (1870.9 s)
+2026-11-01 21:01:35 | INFO | ICC: {'icc_univ': np.float64(0.303), 'icc_univ_li': np.float64(0.242), 'icc_univ_ls': np.float64(0.352), 'icc_univprog': np.float64(0.551), 'icc_univprog_li': np.float64(0.494), 'icc_univprog_ls': np.float64(0.6)}
+2026-11-01 21:01:36 | INFO | Listo: Tabla 3 y Fig. 3

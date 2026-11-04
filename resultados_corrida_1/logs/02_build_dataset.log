@@ -1,0 +1,19 @@
+2026-11-01 20:25:33 | INFO | Python 3.10.11 | Windows-10-10.0.26200-SP0 | modo rápido=False
+2026-11-01 20:26:10 | INFO | Registros sin id_persona (identificador propio por huella): 0
+2026-11-01 20:26:13 | INFO | Cortes tratados como por año
+2026-11-01 20:26:13 | INFO | Año de referencia de la EDAD de TUNI: 2026
+2026-11-01 20:26:13 | INFO | Edad al egreso calculada para 100.0 % (media 27.0); respaldo con EDAD del archivo para 0 registros
+2026-11-01 20:26:15 | WARNING | Sin archivo de nota mínima: los análisis que la usan se omiten
+2026-11-01 20:26:23 | INFO | Imputación de creditos: 0 faltantes con la mediana de entrenamiento (212.00)
+2026-11-01 20:26:23 | INFO | Imputación de edad: 2 faltantes con la mediana de entrenamiento (25.00)
+2026-11-01 20:26:25 | INFO | sha256_train = 4d6ee3e5256db3c378b07444060f94fb5738ec4c3eb06ea5b2061b65529c21e6
+2026-11-01 20:26:25 | INFO | sha256_val = 2558ef3c323f60329351bdd1f5af372607e12c13a96fabc728a2d4dbfbed960a
+2026-11-01 20:26:25 | INFO | sha256_test = dcbda102491a3acacd872db972eea5fad0b5f0a1b7b0a7aafbb6dc313687ba82
+2026-11-01 20:26:25 | INFO | sha256_fold_univ = ef9496793fa3e2cca9f82b7f525636b484ddbc805290d1b85150a896a68af041
+2026-11-01 20:26:27 | INFO | Base analítica: 433213 registros, 105 universidades, 1920 combinaciones universidad-programa
+2026-11-01 20:26:27 | INFO | Partición:
+particion
+train    346575
+val       43322
+test      43316
+2026-11-01 20:26:27 | INFO | Indicadores: créditos inválidos=1446, edad extrema=3, nota < 11=4010

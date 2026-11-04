@@ -1,0 +1,9 @@
+data/raw/
+data/external/
+data/processed/
+outputs/
+venv/
+.venv/
+manuscript/
+__pycache__/
+*.pyc

@@ -1,0 +1,34 @@
+2026-11-02 06:46:23 | INFO | Python 3.10.11 | Windows-10-10.0.26200-SP0 | modo rápido=False
+2026-11-02 06:46:23 | INFO | Entrenamiento: cortes [np.int64(2022), np.int64(2023), np.int64(2024)] (364020) · prueba: 2025 (69193) · universidades nuevas en 2025: 0
+2026-11-02 06:46:23 | INFO | Inicio: Media global
+2026-11-02 06:46:23 | INFO | Fin: Media global (0.0 s)
+2026-11-02 06:46:23 | INFO | Inicio: Media universidad-programa
+2026-11-02 06:46:23 | INFO | Fin: Media universidad-programa (0.1 s)
+2026-11-02 06:46:23 | INFO | Inicio: Mixto institucional
+2026-11-02 06:47:23 | INFO | Fin: Mixto institucional (59.0 s)
+2026-11-02 06:47:23 | INFO | Inicio: Mixto + covariables
+2026-11-02 06:48:58 | INFO | Fin: Mixto + covariables (95.4 s)
+2026-11-02 06:48:58 | INFO | Inicio: Ridge
+2026-11-02 06:49:05 | INFO | Fin: Ridge (7.3 s)
+2026-11-02 06:49:05 | INFO | Inicio: Random Forest
+2026-11-02 06:50:53 | INFO | Fin: Random Forest (107.9 s)
+2026-11-02 06:50:53 | INFO | Inicio: XGBoost
+2026-11-02 06:51:20 | INFO | Fin: XGBoost (26.8 s)
+2026-11-02 06:51:20 | INFO | Inicio: CatBoost
+2026-11-02 06:59:15 | INFO | Fin: CatBoost (475.1 s)
+2026-11-02 06:59:15 | INFO | Inicio: SVR
+2026-11-02 07:03:40 | INFO | Fin: SVR (265.0 s)
+2026-11-02 07:03:40 | INFO | Segmento Universidades vistas idéntico a 'Todas' (no hay universidades nuevas); se omite
+2026-11-02 07:03:40 | WARNING | Segmento Universidades nuevas con muy pocos datos; se omite
+2026-11-02 07:03:40 | INFO | 
+segmento                     modelo    MAE  MAE_li  MAE_ls      R2
+   Todas                    XGBoost 0.9227  0.7589  1.0867  0.4585
+   Todas              Random Forest 0.9257  0.7620  1.0884  0.4584
+   Todas                   CatBoost 0.9456  0.7779  1.1060  0.4313
+   Todas        Mixto + covariables 0.9785  0.8202  1.1332  0.4111
+   Todas                        SVR 0.9860  0.8297  1.1360  0.4042
+   Todas                      Ridge 0.9983  0.8390  1.1525  0.3932
+   Todas        Mixto institucional 1.0113  0.8557  1.1602  0.3813
+   Todas Media universidad-programa 1.0115  0.8565  1.1605  0.3808
+   Todas               Media global 1.4253  1.2350  1.5768 -0.1205
+2026-11-02 07:03:41 | INFO | Listo: validación temporal

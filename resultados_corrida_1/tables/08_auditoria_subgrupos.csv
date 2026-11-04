@@ -1,0 +1,33 @@
+modelo,variable,categoria,n,MAE,MAE_li,MAE_ls,sesgo,sesgo_li,sesgo_ls
+Mixto institucional,sexo,F,23959,0.8562,0.8027,0.9124,-0.0927,-0.1106,-0.0743
+Mixto institucional,sexo,M,19357,0.8981,0.8249,0.9771,0.126,0.1052,0.149
+Mixto institucional,gestion,PRIVADO,33919,0.8848,0.8143,0.9615,0.0037,-0.0146,0.0214
+Mixto institucional,gestion,PUBLICO,9397,0.8394,0.7402,0.9493,0.0098,-0.0154,0.0333
+Mixto institucional,macroregion,CENTRO,6239,0.8298,0.7516,0.9177,-0.0046,-0.0586,0.0427
+Mixto institucional,macroregion,LIMA Y CALLAO,15503,0.9164,0.8401,1.0105,-0.0276,-0.0677,0.017
+Mixto institucional,macroregion,NO REGISTRADO,260,0.8679,0.776,0.969,-0.0802,-0.2658,0.0853
+Mixto institucional,macroregion,NORTE,10566,0.8283,0.7777,0.8884,0.0055,-0.0557,0.0459
+Mixto institucional,macroregion,ORIENTE,2710,0.7802,0.7084,0.8482,0.0664,0.0061,0.1205
+Mixto institucional,macroregion,SUR,8038,0.9234,0.791,1.0483,0.0569,-0.0237,0.1551
+Mixto institucional,grupo_edad,≤23,13605,0.8259,0.7751,0.8761,-0.4095,-0.4659,-0.3544
+Mixto institucional,grupo_edad,24–27,16575,0.8369,0.7711,0.9071,0.1679,0.1322,0.1978
+Mixto institucional,grupo_edad,28–34,8577,0.9856,0.9032,1.0781,0.3372,0.2417,0.4496
+Mixto institucional,grupo_edad,≥35,4559,0.9513,0.8767,1.0416,0.0252,-0.0614,0.1646
+Mixto institucional,discapacidad,NO,43207,0.8748,0.8132,0.9389,0.0044,-0.0113,0.0188
+Mixto institucional,discapacidad,SI,109,0.9401,0.7822,1.0747,0.2633,0.0693,0.4542
+CatBoost,sexo,F,23959,0.7531,0.7052,0.8057,-0.0039,-0.0173,0.0095
+CatBoost,sexo,M,19357,0.7729,0.7044,0.8481,0.0069,-0.0095,0.023
+CatBoost,gestion,PRIVADO,33919,0.7814,0.7181,0.8567,-0.0016,-0.0165,0.0132
+CatBoost,gestion,PUBLICO,9397,0.692,0.6241,0.7674,0.01,-0.0175,0.0367
+CatBoost,macroregion,CENTRO,6239,0.7344,0.6582,0.8185,-0.027,-0.0516,-0.0
+CatBoost,macroregion,LIMA Y CALLAO,15503,0.8117,0.739,0.8984,0.0073,-0.0125,0.0288
+CatBoost,macroregion,NO REGISTRADO,260,0.8271,0.7264,0.9528,0.0458,-0.1668,0.2366
+CatBoost,macroregion,NORTE,10566,0.7046,0.663,0.7542,-0.0017,-0.0294,0.0263
+CatBoost,macroregion,ORIENTE,2710,0.6819,0.6167,0.7504,0.0089,-0.0331,0.0409
+CatBoost,macroregion,SUR,8038,0.7879,0.6891,0.895,0.0096,-0.0205,0.0368
+CatBoost,grupo_edad,≤23,13605,0.6937,0.6512,0.7363,0.0035,-0.0128,0.0224
+CatBoost,grupo_edad,24–27,16575,0.7542,0.6941,0.8246,-0.0058,-0.0216,0.0116
+CatBoost,grupo_edad,28–34,8577,0.8485,0.7732,0.9321,0.0007,-0.0286,0.0315
+CatBoost,grupo_edad,≥35,4559,0.8311,0.7658,0.9046,0.018,-0.0164,0.0456
+CatBoost,discapacidad,NO,43207,0.7617,0.704,0.8252,0.0004,-0.0132,0.0127
+CatBoost,discapacidad,SI,109,0.8584,0.7195,0.981,0.1848,0.0081,0.3489

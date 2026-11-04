@@ -1,0 +1,9 @@
+modelo,bloque,dMAE,dMAE_de
+CatBoost,institucional,0.7642,0.0128
+CatBoost,academico,0.1618,0.0039
+CatBoost,demografico,0.1766,0.0033
+CatBoost,temporal,0.0458,0.0025
+XGBoost,institucional,0.7452,0.0127
+XGBoost,academico,0.0677,0.0024
+XGBoost,demografico,0.175,0.002
+XGBoost,temporal,0.0359,0.0022

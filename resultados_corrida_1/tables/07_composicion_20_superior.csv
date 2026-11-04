@@ -1,0 +1,17 @@
+variable,ranking,categoria,pct_en_20_superior
+macroregion,bruto,LIMA Y CALLAO,48.93
+macroregion,bruto,NORTE,22.88
+macroregion,bruto,SUR,14.06
+macroregion,bruto,CENTRO,9.84
+macroregion,bruto,ORIENTE,3.34
+macroregion,bruto,NO REGISTRADO,0.95
+macroregion,contexto,LIMA Y CALLAO,40.26
+macroregion,contexto,NORTE,22.58
+macroregion,contexto,SUR,18.25
+macroregion,contexto,CENTRO,13.16
+macroregion,contexto,ORIENTE,4.87
+macroregion,contexto,NO REGISTRADO,0.89
+gestion,bruto,PRIVADO,86.38
+gestion,bruto,PUBLICO,13.62
+gestion,contexto,PRIVADO,79.7
+gestion,contexto,PUBLICO,20.3

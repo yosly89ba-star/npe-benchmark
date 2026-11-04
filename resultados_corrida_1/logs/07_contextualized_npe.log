@@ -1,0 +1,22 @@
+2026-11-02 06:07:28 | INFO | Python 3.10.11 | Windows-10-10.0.26200-SP0 | modo rápido=False
+2026-11-02 06:07:28 | INFO | Inicio: Predicción cruzada pliegue 0
+2026-11-02 06:08:26 | INFO | Mixto [C(anio)] método=lbfgs convergió=True llf=-538017.350
+2026-11-02 06:08:27 | INFO | Fin: Predicción cruzada pliegue 0 (59.0 s)
+2026-11-02 06:08:27 | INFO | Inicio: Predicción cruzada pliegue 1
+2026-11-02 06:09:31 | INFO | Mixto [C(anio)] método=lbfgs convergió=True llf=-537709.260
+2026-11-02 06:09:33 | INFO | Fin: Predicción cruzada pliegue 1 (65.1 s)
+2026-11-02 06:09:33 | INFO | Inicio: Predicción cruzada pliegue 2
+2026-11-02 06:10:35 | INFO | Mixto [C(anio)] método=lbfgs convergió=True llf=-538006.491
+2026-11-02 06:10:37 | INFO | Fin: Predicción cruzada pliegue 2 (63.9 s)
+2026-11-02 06:10:37 | INFO | Inicio: Predicción cruzada pliegue 3
+2026-11-02 06:11:41 | INFO | Mixto [C(anio)] método=lbfgs convergió=True llf=-538256.782
+2026-11-02 06:11:42 | INFO | Fin: Predicción cruzada pliegue 3 (65.2 s)
+2026-11-02 06:11:42 | INFO | Inicio: Predicción cruzada pliegue 4
+2026-11-02 06:12:42 | INFO | Mixto [C(anio)] método=lbfgs convergió=True llf=-538216.969
+2026-11-02 06:12:44 | INFO | Fin: Predicción cruzada pliegue 4 (61.7 s)
+2026-11-02 06:12:45 | INFO | 
+        grupo  n_grupo_bruto  pct_que_sale_al_contextualizar  pct_publica_bruto  pct_publica_contexto  universidades_bruto  universidades_contexto
+10 % superior          43469                           49.44              11.66                 18.09                   94                     105
+20 % superior          86775                           40.82              13.62                 20.30                  101                     105
+2026-11-02 06:12:45 | INFO | Spearman residuo vs percentil en el programa (programas con n>=30): 0.956
+2026-11-02 06:12:47 | INFO | Listo: Tabla 6 y Fig. 6

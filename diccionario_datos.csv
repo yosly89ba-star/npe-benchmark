@@ -1,0 +1,25 @@
+﻿variable,columna_TUNI,descripcion,tipo,valores_o_rango,origen,uso_en_el_estudio
+id_persona,IDENTIFICADOR_PERSONA,Identificador del egresado,Texto,Código único por persona,TUNI,Partición agrupada por persona; se reemplaza por un código interno no reversible y no se publica
+universidad,NOMBRE_ENTIDAD,Nombre de la universidad,Categórica,Universidades del país,TUNI,Nivel 2 del modelo multinivel; bloque institucional; agrupación de los IC bootstrap y de los pliegues por universidad; ajuste de la NPE contextualizada
+codigo_universidad,CODIGO_INEI,Código de la universidad,Texto,Código INEI,TUNI,Identificación de la universidad
+programa,NOMBRE_PROGRAMA,Programa o carrera profesional,Categórica,Programas de pregrado,TUNI,Bloque institucional; ajuste de la NPE contextualizada
+gestion,TIPO_GESTION,Tipo de gestión de la universidad,Categórica,Pública / Privada,TUNI,Predictor del modelo M2; bloque institucional; auditoría por tipo de universidad
+constitucion,TIPO_CONSTITUCION,Forma de constitución de la universidad privada,Categórica,Asociativa / Societaria,TUNI,Predictor del modelo M2; bloque institucional
+licenciado,LICENCIADO,Licenciamiento institucional otorgado por SUNEDU,Categórica,Sí / No,TUNI,Predictor del modelo M2; bloque institucional
+area,NOMBRE_GRUPO_1,Área del conocimiento del programa,Categórica,"Áreas de TUNI (p. ej., Educación, Salud, Ingeniería)",TUNI,Predictor del modelo M2; bloque institucional
+tipo_entidad,TIPO_ENTIDAD,Tipo de institución,Categórica,Se conserva solo UNIVERSIDAD,TUNI,Filtro de población
+nivel,NIVEL_ACADEMICO,Nivel académico,Categórica,Se conserva solo CARRERA PROFESIONAL,TUNI,Filtro de población
+nota,NOTA_PROMEDIO,Nota promedio al egreso (NPE),Numérica,7–20 (se excluyen notas 0 y fuera de rango),TUNI,Variable de respuesta
+creditos,CREDITOS_APROBADOS,Créditos aprobados,Numérica,≥ 100 (se excluyen valores menores),TUNI,Predictor; bloque académico; análisis de sensibilidad
+fecha_egreso,FECHA_EGRESO,Fecha de egreso,Fecha,2022–2025 según el corte,TUNI,Para obtener el año de egreso
+anio,Derivada de FECHA_EGRESO,Año de egreso,Numérica,2022–2025,Construida,Bloque temporal; validación temporal (2022–2024 contra 2025); ajuste de la NPE contextualizada
+edad,EDAD,Edad registrada en TUNI a la fecha de descarga,Numérica,Años,TUNI,Para calcular la edad al egreso
+anio_nacimiento,ANIO_NACIMIENTO,Año de nacimiento,Numérica,Año,TUNI,Para calcular la edad al egreso (verificado: ANIO_NACIMIENTO + EDAD = 2026)
+edad_egreso,Derivada,Edad al egreso,Numérica,18–80 años (se excluyen valores fuera de rango),Construida,Bloque demográfico; auditoría por edad. No ajusta la nota
+sexo,SEXO,Sexo del egresado,Categórica,Hombre / Mujer,TUNI,Bloque demográfico; auditoría por sexo. No ajusta la nota
+departamento,DEPARTAMENTO_NACIMIENTO,Departamento de nacimiento,Categórica,24 departamentos y Callao,TUNI,Bloque demográfico; base de la macrorregión. No ajusta la nota
+macrorregion,Derivada de DEPARTAMENTO_NACIMIENTO,Macrorregión de origen,Categórica,Lima y Callao / Norte / Centro / Sur / Oriente,Construida,Auditoría por origen. No ajusta la nota
+discapacidad,DISCAPACITADO,Condición de discapacidad registrada,Categórica,Sí / No,TUNI,Solo auditoría. No ajusta la nota
+univ_prog,Derivada,Combinación universidad × programa,Categórica,Pares universidad–programa,Construida,Bloque institucional
+nota_minima,Externa (opcional),Nota mínima aprobatoria de la universidad,Numérica,Según reglamento de cada universidad,nota_minima_universidad.csv,Bloque institucional
+particion,Derivada,Conjunto asignado al registro,Categórica,Entrenamiento (80 %) / Validación (10 %) / Prueba (10 %),Construida (semilla 20261021),Partición agrupada por persona; registrada en el manifiesto con huella SHA-256

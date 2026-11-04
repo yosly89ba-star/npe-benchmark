@@ -1,0 +1,13 @@
+escenario,n_prueba,universidades_prueba,modelo,MAE,RMSE,R2,MAE_li,MAE_ls,RMSE_li,RMSE_ls,R2_li,R2_ls,dMAE_vs_ref,dMAE_li,dMAE_ls,referencia
+Base,43316,105,CatBoost,0.762,0.9946,0.6193,0.7044,0.8252,0.9154,1.0798,0.5543,0.6778,0.123,0.1099,0.138,Media universidad-programa
+Base,43316,105,Mixto + covariables,0.8474,1.103,0.5318,0.784,0.9122,1.0174,1.1912,0.4604,0.5967,0.0376,0.0286,0.0485,Media universidad-programa
+Base,43316,105,Mixto institucional,0.8749,1.1394,0.5004,0.8136,0.9388,1.0514,1.2283,0.4238,0.5703,0.0101,0.0052,0.0139,Media universidad-programa
+Base,43316,105,Media universidad-programa,0.885,1.1511,0.4901,0.8216,0.9513,1.0612,1.2424,0.4108,0.5635,0.0,0.0,0.0,Media universidad-programa
+Sin créditos inválidos,43161,105,CatBoost,0.7615,0.9933,0.62,0.704,0.8247,0.9139,1.0779,0.5555,0.6779,0.1234,0.1099,0.1383,Media universidad-programa
+Sin créditos inválidos,43161,105,Mixto + covariables,0.8473,1.1025,0.5318,0.7839,0.9118,1.0174,1.1891,0.4611,0.597,0.0376,0.0285,0.0485,Media universidad-programa
+Sin créditos inválidos,43161,105,Mixto institucional,0.8749,1.1389,0.5004,0.8134,0.9385,1.0512,1.2276,0.4237,0.5708,0.01,0.005,0.0137,Media universidad-programa
+Sin créditos inválidos,43161,105,Media universidad-programa,0.8849,1.1504,0.4903,0.8213,0.9509,1.0609,1.2414,0.4105,0.5638,0.0,0.0,0.0,Media universidad-programa
+Sin universidades con redondeo,41695,98,CatBoost,0.7591,0.9918,0.6216,0.6988,0.822,0.9057,1.0779,0.5539,0.6847,0.1215,0.1073,0.138,Media universidad-programa
+Sin universidades con redondeo,41695,98,Mixto + covariables,0.844,1.0993,0.5352,0.7785,0.9105,1.0074,1.1911,0.4614,0.6078,0.0366,0.0268,0.0467,Media universidad-programa
+Sin universidades con redondeo,41695,98,Mixto institucional,0.8705,1.1344,0.505,0.8055,0.9377,1.0394,1.2269,0.4268,0.5816,0.0102,0.0051,0.0139,Media universidad-programa
+Sin universidades con redondeo,41695,98,Media universidad-programa,0.8806,1.1464,0.4945,0.8123,0.9496,1.0486,1.242,0.4141,0.5742,0.0,0.0,0.0,Media universidad-programa

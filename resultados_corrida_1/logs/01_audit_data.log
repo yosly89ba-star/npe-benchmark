@@ -1,0 +1,117 @@
+2026-11-01 20:24:55 | INFO | Python 3.10.11 | Windows-10-10.0.26200-SP0 | modo rápido=False
+2026-11-01 20:25:26 | INFO | Corte 2022 · valores de tipo_entidad: {'UNIVERSIDAD': 165984, 'ESCUELA SUPERIOR': 986, 'ESCUELA DE POSGRADO': 703, 'INSTITUTO': 62}
+2026-11-01 20:25:26 | INFO | Corte 2022 · valores de nivel: {'CARRERA PROFESIONAL': 126571, 'MAESTRIA': 31818, 'SEGUNDA ESPECIALIDAD': 7248, 'DOCTORADO': 2098}
+2026-11-01 20:25:26 | INFO | Corte 2022 · valores de gestion: {'PRIVADO': 125700, 'PUBLICO': 42035}
+2026-11-01 20:25:26 | INFO | Corte 2022 · valores de sexo: {'F': 93737, 'M': 73998}
+2026-11-01 20:25:26 | INFO | Corte 2022 · valores de licenciado: {'LICENCIADA': 153658, 'LICENCIA DENEGADA': 13029, 'LEY DE CREACION': 1048}
+2026-11-01 20:25:26 | INFO | Corte 2022 · valores de constitucion: {'SOCIETARIA- CON FINES DE LUCRO': 73194, 'ASOCIATIVA- SIN FINES DE LUCRO': 52506, nan: 42035}
+2026-11-01 20:25:26 | INFO | Corte 2022 · valores de area: {'CIENCIAS ADMINISTRATIVAS Y DERECHO': 57705, 'INGENIERIA, INDUSTRIA Y CONSTRUCCION': 31014, 'SALUD Y BIENESTAR': 19143, 'CIENCIAS SOCIALES, PERIODISMO E INFORMACION': 18818, 'EDUCACION': 16115, 'CIENCIAS NATURALES, MATEMATICAS Y ESTADISTICA': 6383, 'TECNOLOGIA DE LA INFORMACION Y LA COMUNICACION': 5746, 'SERVICIOS': 4377, 'AGRICULTURA, SILVICULTURA, PESCA Y VETERINARIA': 3533, 'SIN INFORMACION': 2467, 'ARTE Y HUMANIDADES': 2434}
+2026-11-01 20:25:26 | INFO | Corte 2023 · valores de tipo_entidad: {'UNIVERSIDAD': 168553, 'ESCUELA SUPERIOR': 1587, 'ESCUELA DE POSGRADO': 1455, 'INSTITUTO': 100}
+2026-11-01 20:25:26 | INFO | Corte 2023 · valores de nivel: {'CARRERA PROFESIONAL': 135320, 'MAESTRIA': 28315, 'SEGUNDA ESPECIALIDAD': 5441, 'DOCTORADO': 2619}
+2026-11-01 20:25:26 | INFO | Corte 2023 · valores de gestion: {'PRIVADO': 132634, 'PUBLICO': 39061}
+2026-11-01 20:25:26 | INFO | Corte 2023 · valores de sexo: {'F': 95794, 'M': 75901}
+2026-11-01 20:25:26 | INFO | Corte 2023 · valores de licenciado: {'LICENCIADA': 160240, 'LICENCIA DENEGADA': 9768, 'LEY DE CREACION': 1687}
+2026-11-01 20:25:26 | INFO | Corte 2023 · valores de constitucion: {'SOCIETARIA- CON FINES DE LUCRO': 76339, 'ASOCIATIVA- SIN FINES DE LUCRO': 56295, nan: 39061}
+2026-11-01 20:25:26 | INFO | Corte 2023 · valores de area: {'CIENCIAS ADMINISTRATIVAS Y DERECHO': 60715, 'INGENIERIA, INDUSTRIA Y CONSTRUCCION': 31191, 'CIENCIAS SOCIALES, PERIODISMO E INFORMACION': 21053, 'SALUD Y BIENESTAR': 20616, 'EDUCACION': 12441, 'CIENCIAS NATURALES, MATEMATICAS Y ESTADISTICA': 6325, 'TECNOLOGIA DE LA INFORMACION Y LA COMUNICACION': 6161, 'SERVICIOS': 4238, 'AGRICULTURA, SILVICULTURA, PESCA Y VETERINARIA': 3271, 'ARTE Y HUMANIDADES': 2984, 'SIN INFORMACION': 2700}
+2026-11-01 20:25:26 | INFO | Corte 2024 · valores de tipo_entidad: {'UNIVERSIDAD': 154984, 'ESCUELA DE POSGRADO': 2108, 'ESCUELA SUPERIOR': 1386, 'INSTITUTO': 132}
+2026-11-01 20:25:26 | INFO | Corte 2024 · valores de nivel: {'CARRERA PROFESIONAL': 121886, 'MAESTRIA': 23985, 'SEGUNDA ESPECIALIDAD': 11147, 'DOCTORADO': 1592}
+2026-11-01 20:25:26 | INFO | Corte 2024 · valores de gestion: {'PRIVADO': 124709, 'PUBLICO': 33901}
+2026-11-01 20:25:26 | INFO | Corte 2024 · valores de sexo: {'F': 89183, 'M': 69427}
+2026-11-01 20:25:26 | INFO | Corte 2024 · valores de licenciado: {'LICENCIADA': 150984, 'LICENCIA DENEGADA': 6108, 'LEY DE CREACION': 1518}
+2026-11-01 20:25:26 | INFO | Corte 2024 · valores de constitucion: {'SOCIETARIA- CON FINES DE LUCRO': 83194, 'ASOCIATIVA- SIN FINES DE LUCRO': 41515, nan: 33901}
+2026-11-01 20:25:26 | INFO | Corte 2024 · valores de area: {'CIENCIAS ADMINISTRATIVAS Y DERECHO': 48724, 'INGENIERIA, INDUSTRIA Y CONSTRUCCION': 28022, 'SALUD Y BIENESTAR': 19906, 'CIENCIAS SOCIALES, PERIODISMO E INFORMACION': 19293, 'EDUCACION': 13478, 'SIN INFORMACION': 8913, 'TECNOLOGIA DE LA INFORMACION Y LA COMUNICACION': 5870, 'CIENCIAS NATURALES, MATEMATICAS Y ESTADISTICA': 5437, 'SERVICIOS': 3162, 'ARTE Y HUMANIDADES': 3123, 'AGRICULTURA, SILVICULTURA, PESCA Y VETERINARIA': 2682}
+2026-11-01 20:25:26 | INFO | Corte 2025 · valores de tipo_entidad: {'UNIVERSIDAD': 89019, 'ESCUELA SUPERIOR': 450, 'INSTITUTO': 18}
+2026-11-01 20:25:26 | INFO | Corte 2025 · valores de nivel: {'CARRERA PROFESIONAL': 72667, 'MAESTRIA': 12025, 'SEGUNDA ESPECIALIDAD': 4298, 'DOCTORADO': 497}
+2026-11-01 20:25:26 | INFO | Corte 2025 · valores de gestion: {'PRIVADO': 78727, 'PUBLICO': 10760}
+2026-11-01 20:25:26 | INFO | Corte 2025 · valores de sexo: {'F': 50234, 'M': 39253}
+2026-11-01 20:25:26 | INFO | Corte 2025 · valores de licenciado: {'LICENCIADA': 88602, 'LEY DE CREACION': 468, 'LICENCIA DENEGADA': 417}
+2026-11-01 20:25:26 | INFO | Corte 2025 · valores de constitucion: {'SOCIETARIA- CON FINES DE LUCRO': 51282, 'ASOCIATIVA- SIN FINES DE LUCRO': 27445, nan: 10760}
+2026-11-01 20:25:26 | INFO | Corte 2025 · valores de area: {'CIENCIAS ADMINISTRATIVAS Y DERECHO': 30223, 'INGENIERIA, INDUSTRIA Y CONSTRUCCION': 17170, 'CIENCIAS SOCIALES, PERIODISMO E INFORMACION': 11613, 'SALUD Y BIENESTAR': 9416, 'EDUCACION': 5908, 'SIN INFORMACION': 4599, 'TECNOLOGIA DE LA INFORMACION Y LA COMUNICACION': 4005, 'CIENCIAS NATURALES, MATEMATICAS Y ESTADISTICA': 2336, 'ARTE Y HUMANIDADES': 1519, 'AGRICULTURA, SILVICULTURA, PESCA Y VETERINARIA': 1381, 'SERVICIOS': 1317}
+2026-11-01 20:25:27 | INFO | Corte 2022 · flujo:
+ anio                paso      n
+ 2022 Registros iniciales 167735
+ 2022  Solo universidades 165984
+ 2022       Solo pregrado 125929
+ 2022 Con nota registrada 125929
+ 2022  Nota distinta de 0 123320
+ 2022   Nota entre 7 y 20 121351
+2026-11-01 20:25:27 | INFO | Corte 2023 · flujo:
+ anio                paso      n
+ 2023 Registros iniciales 171695
+ 2023  Solo universidades 168553
+ 2023       Solo pregrado 134076
+ 2023 Con nota registrada 134075
+ 2023  Nota distinta de 0 130987
+ 2023   Nota entre 7 y 20 129925
+2026-11-01 20:25:28 | INFO | Corte 2024 · flujo:
+ anio                paso      n
+ 2024 Registros iniciales 158610
+ 2024  Solo universidades 154984
+ 2024       Solo pregrado 120683
+ 2024 Con nota registrada 120683
+ 2024  Nota distinta de 0 118089
+ 2024   Nota entre 7 y 20 117780
+2026-11-01 20:25:28 | INFO | Corte 2025 · flujo:
+ anio                paso     n
+ 2025 Registros iniciales 89487
+ 2025  Solo universidades 89019
+ 2025       Solo pregrado 72338
+ 2025 Con nota registrada 72338
+ 2025  Nota distinta de 0 69275
+ 2025   Nota entre 7 y 20 69222
+2026-11-01 20:25:30 | INFO | Universidades identificadas por código: 105
+2026-11-01 20:25:30 | INFO | EDAD del archivo: media=29.5 · edad al egreso calculada: media=27.0 · diferencia media=2.5 años
+2026-11-01 20:25:31 | INFO | Resumen por corte:
+ anio  registros  universidades  programas
+ 2022     121351             99        633
+ 2023     129925             95        577
+ 2024     117780             87        576
+ 2025      69222             77        498
+2026-11-01 20:25:31 | INFO | Universidades: unión=105, en todos los cortes=74, en un solo corte=11
+2026-11-01 20:25:31 | INFO | Universidades que NO están en todos los cortes:
+                                                                 universidad  en_2022  en_2023  en_2024  en_2025  n_cortes gestion        licenciado                   constitucion  n_2022  n_2023  n_2024  n_2025
+                                 UNIVERSIDAD ANDINA NESTOR CACERES VELASQUEZ     True     True     True    False         3 PRIVADO LICENCIA DENEGADA ASOCIATIVA- SIN FINES DE LUCRO    3931    2978    2107       0
+                                          UNIVERSIDAD AUTONOMA DE ICA S.A.C.     True     True     True    False         3 PRIVADO        LICENCIADA SOCIETARIA- CON FINES DE LUCRO     470     451     338       0
+                                UNIVERSIDAD CATOLICA LOS ANGELES DE CHIMBOTE    False     True     True    False         2 PRIVADO        LICENCIADA ASOCIATIVA- SIN FINES DE LUCRO       0    2767     593       0
+                                         UNIVERSIDAD DE SAN MARTIN DE PORRES     True     True    False    False         2 PRIVADO        LICENCIADA ASOCIATIVA- SIN FINES DE LUCRO    3561    4094       0       0
+                      UNIVERSIDAD INCA GARCILASO DE LA VEGA ASOCIACION CIVIL     True    False    False    False         1 PRIVADO LICENCIA DENEGADA ASOCIATIVA- SIN FINES DE LUCRO     216       0       0       0
+                                     UNIVERSIDAD LATINOAMERICANA CIMA S.A.C.     True     True     True    False         3 PRIVADO LICENCIA DENEGADA SOCIETARIA- CON FINES DE LUCRO      84     109      19       0
+                                            UNIVERSIDAD MARCELINO CHAMPAGNAT     True     True    False    False         2 PRIVADO        LICENCIADA ASOCIATIVA- SIN FINES DE LUCRO     143      28       0       0
+                           UNIVERSIDAD NACIONAL AUTONOMA ALTOANDINA DE TARMA    False     True     True     True         3 PUBLICO        LICENCIADA                            NaN       0      71      46      63
+                                      UNIVERSIDAD NACIONAL AUTONOMA DE CHOTA     True    False    False    False         1 PUBLICO        LICENCIADA                            NaN     206       0       0       0
+          UNIVERSIDAD NACIONAL AUTONOMA DE TAYACAJA DANIEL HERNANDEZ MORILLO    False     True     True     True         3 PUBLICO        LICENCIADA                            NaN       0      59      98      13
+                                 UNIVERSIDAD NACIONAL DANIEL ALCIDES CARRION     True     True     True    False         3 PUBLICO        LICENCIADA                            NaN      11       7     676       0
+                                           UNIVERSIDAD NACIONAL DE CAJAMARCA     True    False    False    False         1 PUBLICO        LICENCIADA                            NaN     482       0       0       0
+                    UNIVERSIDAD NACIONAL DE EDUCACION ENRIQUE GUZMAN Y VALLE     True    False    False    False         1 PUBLICO        LICENCIADA                            NaN    1277       0       0       0
+                           UNIVERSIDAD NACIONAL DE SAN CRISTOBAL DE HUAMANGA     True    False    False    False         1 PUBLICO        LICENCIADA                            NaN     319       0       0       0
+                                            UNIVERSIDAD NACIONAL DE TRUJILLO     True     True     True    False         3 PUBLICO        LICENCIADA                            NaN    2240    2142    2261       0
+                                          UNIVERSIDAD NACIONAL DEL ALTIPLANO     True    False    False    False         1 PUBLICO        LICENCIADA                            NaN      48       0       0       0
+                                              UNIVERSIDAD NACIONAL DEL SANTA     True     True    False    False         2 PUBLICO        LICENCIADA                            NaN     585     142       0       0
+                                    UNIVERSIDAD NACIONAL FEDERICO VILLARREAL     True     True    False    False         2 PUBLICO        LICENCIADA                            NaN     735     488       0       0
+UNIVERSIDAD NACIONAL INTERCULTURAL DE LA SELVA CENTRAL JUAN SANTOS ATAHUALPA     True    False    False    False         1 PUBLICO        LICENCIADA                            NaN      29       0       0       0
+                           UNIVERSIDAD NACIONAL INTERCULTURAL DE QUILLABAMBA    False    False     True    False         1 PUBLICO        LICENCIADA                            NaN       0       0      14       0
+          UNIVERSIDAD NACIONAL INTERCULTURAL FABIOLA SALAZAR LEGUIA DE BAGUA    False     True     True     True         3 PUBLICO        LICENCIADA                            NaN       0      69      89      95
+                             UNIVERSIDAD NACIONAL SANTIAGO ANTUNEZ DE MAYOLO     True     True     True    False         3 PUBLICO        LICENCIADA                            NaN    1109     348     648       0
+                                          UNIVERSIDAD PARTICULAR DE CHICLAYO     True     True     True    False         3 PRIVADO LICENCIA DENEGADA ASOCIATIVA- SIN FINES DE LUCRO     376     442      64       0
+                        UNIVERSIDAD PERUANA DE CIENCIAS E INFORMATICA S.A.C.     True     True    False    False         2 PRIVADO LICENCIA DENEGADA SOCIETARIA- CON FINES DE LUCRO      70      34       0       0
+                                              UNIVERSIDAD PERUANA DEL CENTRO     True     True     True    False         3 PRIVADO        LICENCIADA ASOCIATIVA- SIN FINES DE LUCRO      93      55      46       0
+                                                UNIVERSIDAD PRIVADA DE TACNA     True     True    False    False         2 PRIVADO        LICENCIADA ASOCIATIVA- SIN FINES DE LUCRO      89      88       0       0
+                                    UNIVERSIDAD PRIVADA LIDER PERUANA S.A.C.     True     True    False    False         2 PRIVADO LICENCIA DENEGADA SOCIETARIA- CON FINES DE LUCRO      88     120       0       0
+                                    UNIVERSIDAD PRIVADA SERGIO BERNALES S.A.     True    False    False    False         1 PRIVADO LICENCIA DENEGADA SOCIETARIA- CON FINES DE LUCRO      39       0       0       0
+                                          UNIVERSIDAD PRIVADA TELESUP S.A.C.     True    False    False    False         1 PRIVADO LICENCIA DENEGADA SOCIETARIA- CON FINES DE LUCRO     178       0       0       0
+                                               UNIVERSIDAD SAN ANDRES S.A.C.    False     True    False    False         1 PRIVADO LICENCIA DENEGADA SOCIETARIA- CON FINES DE LUCRO       0      10       0       0
+                                        UNIVERSIDAD SEMINARIO BIBLICO ANDINO     True     True    False    False         2 PRIVADO LICENCIA DENEGADA ASOCIATIVA- SIN FINES DE LUCRO      42      14       0       0
+2026-11-01 20:25:31 | INFO | Personas en 2022 y 2023: 63 (0.0 % de 2023)
+2026-11-01 20:25:31 | INFO | Personas en 2022 y 2024: 53 (0.0 % de 2024)
+2026-11-01 20:25:31 | INFO | Personas en 2022 y 2025: 29 (0.0 % de 2025)
+2026-11-01 20:25:31 | INFO | Personas en 2023 y 2024: 56 (0.0 % de 2024)
+2026-11-01 20:25:31 | INFO | Personas en 2023 y 2025: 29 (0.0 % de 2025)
+2026-11-01 20:25:31 | INFO | Personas en 2024 y 2025: 26 (0.0 % de 2025)
+2026-11-01 20:25:31 | INFO | Registros persona-universidad-programa repetidos entre cortes: 2.3 % -> cortes por año
+2026-11-01 20:25:31 | INFO | Corte 2025: personas con más de un egreso: 57
+2026-11-01 20:25:32 | INFO | Corte 2022 · años de egreso: {2020: 1, 2021: 51, 2022: 87677, 2023: 33457, 2024: 152, 2025: 13}
+2026-11-01 20:25:32 | INFO | Corte 2023 · años de egreso: {2020: 5, 2021: 6, 2022: 50, 2023: 96980, 2024: 32878, 2025: 6}
+2026-11-01 20:25:32 | INFO | Corte 2024 · años de egreso: {2021: 4, 2022: 8, 2023: 27, 2024: 97768, 2025: 19973}
+2026-11-01 20:25:32 | INFO | Corte 2025 · años de egreso: {2020: 1, 2023: 7, 2024: 22, 2025: 66831, 2026: 2361}
+2026-11-01 20:25:32 | INFO | Universidades con más de 30 % de notas enteras: 7
+2026-11-01 20:25:32 | INFO | Listo. Revise outputs/tables/01_*.csv y ajuste 'filters' en config.yaml si hace falta.

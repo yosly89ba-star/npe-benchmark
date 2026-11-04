@@ -1,0 +1,12 @@
+SHA256 hash de data\raw\tuni_2022.csv:
+37189fe06e958b6d5b0c30ebbfa3210f00281f9d0a670f1a8516d1abe436f37b
+CertUtil: -hashfile comando completado correctamente.
+SHA256 hash de data\raw\tuni_2023.csv:
+119069b27f1978391bd421164ae6b72db61109bc7eac1917c697b5c39396399d
+CertUtil: -hashfile comando completado correctamente.
+SHA256 hash de data\raw\tuni_2024.csv:
+c92513e76402ebe8b735a58458c04593b7a90d5b74a9f844a7a1a25194f83504
+CertUtil: -hashfile comando completado correctamente.
+SHA256 hash de data\raw\tuni_2025.csv:
+20d742e5133569bc3803a8e38c2cf05d74cf079f5bc939f584ea5ab12642d0a2
+CertUtil: -hashfile comando completado correctamente.

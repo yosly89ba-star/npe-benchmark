@@ -1,0 +1,103 @@
+# ============================================================
+# Configuración del proyecto npe-benchmark (versión para la corrida canónica)
+# Reconstruida a partir del manuscrito (Tabla 1, Tabla 8) y de los logs del 30-31/10/2026.
+# ============================================================
+
+# --- Archivos de entrada (uno por corte de TUNI) ---
+paths:
+  raw_files:
+    2022: data/raw/tuni_2022.csv
+    2023: data/raw/tuni_2023.csv
+    2024: data/raw/tuni_2024.csv
+    2025: data/raw/tuni_2025.csv
+  # Opcional: universidad, nota_minima, fuente. Dejar la ruta aunque no exista aún.
+  nota_minima: data/external/nota_minima_universidad.csv
+  processed: data/processed
+  outputs: outputs
+
+# --- Lectura de los CSV ---
+read:
+  sep: "|"             # los archivos de TUNI separan las columnas con barra vertical
+  encoding: "latin-1"   # los archivos originales de TUNI vienen en Latin-1
+  decimal: "."          # las notas con coma decimal se convierten igual en common.py
+
+# --- Edad: TUNI registra la EDAD a la fecha de descarga (verificado: ANIO_NACIMIENTO + EDAD = 2026)
+anio_referencia_edad: 2026
+
+# --- Nombres de columnas: nombre interno -> nombre EXACTO en el archivo (Tabla 1) ---
+columns:
+  id_persona: IDENTIFICADOR_PERSONA
+  universidad: NOMBRE_ENTIDAD
+  programa: NOMBRE_PROGRAMA
+  gestion: TIPO_GESTION
+  constitucion: TIPO_CONSTITUCION
+  licenciado: LICENCIADO
+  area: NOMBRE_GRUPO_1
+  tipo_entidad: TIPO_ENTIDAD
+  nivel: NIVEL_ACADEMICO
+  creditos: CREDITOS_APROBADOS
+  edad: EDAD
+  anio_nacimiento: ANIO_NACIMIENTO
+  sexo: SEXO
+  departamento: DEPARTAMENTO_NACIMIENTO
+  discapacidad: DISCAPACITADO
+  codigo_universidad: CODIGO_INEI
+  nota: NOTA_PROMEDIO
+  fecha_egreso: FECHA_EGRESO
+
+# --- Filtros de población ---
+filters:
+  tipo_entidad_valores: ["UNIVERSIDAD"]
+  nivel_valores: ["CARRERA PROFESIONAL"]   # en TUNI el pregrado figura como "Carrera Profesional"
+  excluir_nota_cero: true
+  nota_min_valida: 7
+  nota_max_valida: 20
+  creditos_min_validos: 100
+  edad_min: 18
+  edad_max: 80
+
+cortes_acumulados: auto
+
+# --- Partición ---
+split:
+  seed: 20261021
+  test_size: 0.10
+  val_size: 0.10
+  n_folds_cv: 5
+  n_folds_univ: 5
+
+# --- Modelos ---
+models:
+  n_iter_search: 30
+  svr_tune_n: 12000
+  svr_fit_max_n: 30000
+  n_jobs: 4                  # con -1 (todos los núcleos) se agotó la memoria en Windows
+
+# --- Incertidumbre ---
+bootstrap:
+  n_boot: 2000
+  n_boot_icc: 30             # el manuscrito informa 30 réplicas
+
+# --- Interpretabilidad ---
+shap:
+  max_n: 7000
+  n_repeats_perm: 10
+
+# --- Bloques de variables (SHAP y permutación), como en la Tabla 8 ---
+blocks:
+  institucional: [universidad, programa, univ_prog, gestion, constitucion, licenciado, area, nota_minima]
+  academico: [creditos]
+  demografico: [edad, sexo, departamento]
+  temporal: [anio]
+
+# --- Sensibilidad ---
+sensitivity:
+  umbral_redondeo: 0.30
+
+# --- Macrorregiones ---
+macroregiones:
+  LIMA Y CALLAO: [LIMA, CALLAO]
+  NORTE: [TUMBES, PIURA, LAMBAYEQUE, LA LIBERTAD, CAJAMARCA, ANCASH]
+  CENTRO: [JUNIN, PASCO, HUANUCO, HUANCAVELICA, ICA]
+  SUR: [AREQUIPA, MOQUEGUA, TACNA, PUNO, CUSCO, APURIMAC, AYACUCHO]
+  ORIENTE: [LORETO, UCAYALI, SAN MARTIN, MADRE DE DIOS, AMAZONAS]

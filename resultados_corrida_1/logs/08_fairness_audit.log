@@ -1,0 +1,36 @@
+2026-11-02 06:12:48 | INFO | Python 3.10.11 | Windows-10-10.0.26200-SP0 | modo rápido=False
+2026-11-02 06:12:49 | INFO | 
+             modelo     variable     categoria     n   MAE  MAE_li  MAE_ls  sesgo  sesgo_li  sesgo_ls
+Mixto institucional         sexo             F 23959 0.856   0.803   0.912 -0.093    -0.111    -0.074
+Mixto institucional         sexo             M 19357 0.898   0.825   0.977  0.126     0.105     0.149
+Mixto institucional      gestion       PRIVADO 33919 0.885   0.814   0.962  0.004    -0.015     0.021
+Mixto institucional      gestion       PUBLICO  9397 0.839   0.740   0.949  0.010    -0.015     0.033
+Mixto institucional  macroregion        CENTRO  6239 0.830   0.752   0.918 -0.005    -0.059     0.043
+Mixto institucional  macroregion LIMA Y CALLAO 15503 0.916   0.840   1.011 -0.028    -0.068     0.017
+Mixto institucional  macroregion NO REGISTRADO   260 0.868   0.776   0.969 -0.080    -0.266     0.085
+Mixto institucional  macroregion         NORTE 10566 0.828   0.778   0.888  0.005    -0.056     0.046
+Mixto institucional  macroregion       ORIENTE  2710 0.780   0.708   0.848  0.066     0.006     0.120
+Mixto institucional  macroregion           SUR  8038 0.923   0.791   1.048  0.057    -0.024     0.155
+Mixto institucional   grupo_edad           ≤23 13605 0.826   0.775   0.876 -0.410    -0.466    -0.354
+Mixto institucional   grupo_edad         24–27 16575 0.837   0.771   0.907  0.168     0.132     0.198
+Mixto institucional   grupo_edad         28–34  8577 0.986   0.903   1.078  0.337     0.242     0.450
+Mixto institucional   grupo_edad           ≥35  4559 0.951   0.877   1.042  0.025    -0.061     0.165
+Mixto institucional discapacidad            NO 43207 0.875   0.813   0.939  0.004    -0.011     0.019
+Mixto institucional discapacidad            SI   109 0.940   0.782   1.075  0.263     0.069     0.454
+           CatBoost         sexo             F 23959 0.753   0.705   0.806 -0.004    -0.017     0.010
+           CatBoost         sexo             M 19357 0.773   0.704   0.848  0.007    -0.010     0.023
+           CatBoost      gestion       PRIVADO 33919 0.781   0.718   0.857 -0.002    -0.017     0.013
+           CatBoost      gestion       PUBLICO  9397 0.692   0.624   0.767  0.010    -0.018     0.037
+           CatBoost  macroregion        CENTRO  6239 0.734   0.658   0.818 -0.027    -0.052    -0.000
+           CatBoost  macroregion LIMA Y CALLAO 15503 0.812   0.739   0.898  0.007    -0.013     0.029
+           CatBoost  macroregion NO REGISTRADO   260 0.827   0.726   0.953  0.046    -0.167     0.237
+           CatBoost  macroregion         NORTE 10566 0.705   0.663   0.754 -0.002    -0.029     0.026
+           CatBoost  macroregion       ORIENTE  2710 0.682   0.617   0.750  0.009    -0.033     0.041
+           CatBoost  macroregion           SUR  8038 0.788   0.689   0.895  0.010    -0.021     0.037
+           CatBoost   grupo_edad           ≤23 13605 0.694   0.651   0.736  0.004    -0.013     0.022
+           CatBoost   grupo_edad         24–27 16575 0.754   0.694   0.825 -0.006    -0.022     0.012
+           CatBoost   grupo_edad         28–34  8577 0.848   0.773   0.932  0.001    -0.029     0.032
+           CatBoost   grupo_edad           ≥35  4559 0.831   0.766   0.905  0.018    -0.016     0.046
+           CatBoost discapacidad            NO 43207 0.762   0.704   0.825  0.000    -0.013     0.013
+           CatBoost discapacidad            SI   109 0.858   0.719   0.981  0.185     0.008     0.349
+2026-11-02 06:12:49 | INFO | Listo: Tabla 7 y Fig. 7
