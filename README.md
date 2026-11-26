@@ -4,10 +4,11 @@ Código del artículo de Barturén, Musayon y Tocto sobre la heterogeneidad inst
 
 ## 1. Instalación (una sola vez)
 
-Se usó **Python 3.10.11** en Windows 10. Las versiones exactas de todas las librerías están en `requirements_congelado.txt`.
+Se usó **Python 3.10.11** en Windows 11. Las versiones exactas de todas las librerías están en `requirements_congelado.txt`.
 
 ```bash
-cd npe
+git clone https://github.com/yosly89ba-star/npe-benchmark
+cd npe-benchmark
 python -m venv venv
 venv\Scripts\activate              # Linux/Mac: source venv/bin/activate
 pip install -r requirements_congelado.txt
@@ -15,13 +16,16 @@ pip install -r requirements_congelado.txt
 
 ## 2. Preparar los datos
 
-1. Copiar los cuatro cortes de TUNI a `data/raw/` como `tuni_2022.csv`, `tuni_2023.csv`, `tuni_2024.csv` y `tuni_2025.csv` (o cambiar las rutas en `config.yaml`). Los archivos originales de TUNI usan separador `|` y codificación `latin-1`.
-2. Revisar en `config.yaml`:
+Los cortes 2022–2025 de TUNI se descargan de TUNI.PE (SUNEDU): https://tuni.pe/datos (descargados el 10 de julio de 2026).
+
+1. En la página, en **Tipo de Información** seleccionar **Egresado** y descargar el archivo de cada corte (2022, 2023, 2024 y 2025).
+2. Copiar los cuatro cortes de TUNI a `data/raw/` como `tuni_2022.csv`, `tuni_2023.csv`, `tuni_2024.csv` y `tuni_2025.csv` (o cambiar las rutas en `config.yaml`). Los archivos originales de TUNI usan separador `|` y codificación `latin-1`.
+3. Revisar en `config.yaml`:
    - `read`: separador, codificación y decimal.
    - `columns`: el nombre exacto de cada columna en los archivos.
    - `filters`: tipo de entidad (`UNIVERSIDAD`) y nivel (`CARRERA PROFESIONAL`).
    - `anio_referencia_edad`: año en que se descargaron los datos (2026), usado para calcular la edad al egreso.
-3. Opcional: crear `data/external/nota_minima_universidad.csv` con las columnas `universidad,nota_minima,fuente`.
+4. Opcional: crear `data/external/nota_minima_universidad.csv` con las columnas `universidad,nota_minima,fuente`.
 
 La descripción de cada variable (columna de TUNI, tipo, valores y uso en el estudio) está en `diccionario_datos.csv`.
 
@@ -63,7 +67,7 @@ Cada script deja su log en `outputs/logs/`, sus tablas en `outputs/tables/` y su
 
 ## 4. Reproducibilidad
 
-- El procedimiento completo se ejecutó **dos veces desde cero** (corridas del 1–2 y 2–3 de noviembre de 2026) y produjo resultados idénticos.
+- El procedimiento completo se ejecutó **dos veces desde cero** (corridas del 1–2 y del 2–3 de noviembre de 2026) y produjo resultados idénticos: el archivo de cifras `numbers.json` de ambas corridas tiene la misma huella SHA-256 (ver `reproducibilidad/`).
 - El script 02 genera la partición y la guarda en `data/processed/manifiesto_particion.csv` (no se publica porque contiene un registro por egresado). Para verificarla, basta comparar sus cuatro huellas SHA-256 (entrenamiento, validación, prueba y pliegues por universidad) con las de `resultados_corrida_1/logs/02_build_dataset.log`.
 - Las huellas de los datos de entrada y del código están en `huellas_entrada.txt` y `huellas_codigo.txt`.
 - Semilla fija: `20261021` (en `config.yaml`).
@@ -97,16 +101,8 @@ La Figura 2 (flujo de depuración) se elaboró a partir de `tables/01_flujo_por_
 
 ## 7. Uso de IA
 
-- **Herramienta:** Claude (Anthropic, modelo Claude Opus 5.5)
-- **Fecha de uso:** 30/10/2026 – 03/11/2026
+Se utilizó inteligencia artificial generativa (Claude, Anthropic; modelo Claude Opus 5.5) para revisar y corregir el código de preparación de los datos y de modelamiento, y para la edición gramatical del texto. La herramienta no generó ni modificó datos. Los autores ejecutaron los scripts, verificaron que dos corridas independientes produjeran resultados idénticos y asumen la responsabilidad del contenido.
 
-### 1. Preparación de los datos
-- **Para qué:** verificar la calidad de los datos y corregir el código durante este proceso
-- **Verificación:** se compararon los conteos del flujo de depuración con los archivos originales de TUNI y se ejecutó el pipeline dos veces desde cero
-- **Decisión:** se adoptó la versión corregida del script de construcción de la base
+## 8. Cómo citar
 
-### 2. Modelado
-- **Para qué:** revisar y corregir el código de los modelos durante este proceso
-
-### 3. Comunicación
-- **Para qué:** revisar la concordancia de los párrafos del manuscrito
+Si usa este código, cite el artículo: Barturén, Musayon y Tocto (2026), *Education Sciences* (en revisión). El DOI de la versión archivada en Zenodo se agregará tras la publicación. Licencia MIT (ver `LICENSE`).
