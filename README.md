@@ -2,6 +2,17 @@
 
 Código del artículo de Barturén, Musayon y Tocto sobre la heterogeneidad institucional de la nota promedio al egreso (NPE) y la generalización de su estimación retrospectiva, con registros TUNI–SUNEDU de los cortes 2022–2025 (envío a *Education Sciences*). Todo el código está en Python.
 
+## English summary
+
+Code for the article by Barturén, Musayon and Tocto on the institutional heterogeneity of the graduation grade point average (NPE) and the generalisation of its retrospective estimation, using TUNI–SUNEDU records for the 2022–2025 cohorts (submitted to *Education Sciences*). Code comments and output labels are in Spanish.
+
+- **Environment:** Python 3.10.11 on Windows 11; exact library versions in `requirements_congelado.txt`.
+- **Data:** public TUNI graduate files from https://tuni.pe/datos (Tipo de Información = *Egresado*; downloaded on 10 July 2026). Place them in `data/raw/` as `tuni_2022.csv` … `tuni_2025.csv`. Variable descriptions are in `diccionario_datos.csv`; input hashes in `huellas_entrada.txt`.
+- **Run:** `pip install -r requirements_congelado.txt`, then `cd src` and `correr_todo.bat` (scripts 00–13; the model tuning in script 05 takes 6–15 h).
+- **Results:** tables, figures and logs of the canonical run are in `resultados_corrida_1/`; key figures cited in the text are in `numbers.json`.
+- **Reproducibility:** the full pipeline was run twice from scratch with seed 20261021 and produced identical results (same SHA-256 hash of `numbers.json`; see `reproducibilidad/`).
+- **Personal data:** raw files contain a person identifier and are not included; the analytic dataset replaces it with a non-reversible internal code.
+
 ## 1. Instalación (una sola vez)
 
 Se usó **Python 3.10.11** en Windows 11. Las versiones exactas de todas las librerías están en `requirements_congelado.txt`.
